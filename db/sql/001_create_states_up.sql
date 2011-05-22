@@ -1,8 +1,8 @@
 
-CREATE TABLE `states` (
- `id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
- `state` VARCHAR(50),
- `createdat` DATETIME,
- `updatedat` DATETIME,
- `deletedat` DATETIME
+CREATE TABLE [states] (
+ [id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+ [state] VARCHAR(50),
+ [createdat] DATETIME,
+ [updatedat] DATETIME,
+ [deletedat] DATETIME
 );

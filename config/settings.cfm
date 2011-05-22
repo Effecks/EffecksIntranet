@@ -1,6 +1,6 @@
 <!---
 	If you leave these settings commented out, Wheels will set the data source name to the same name as the folder the application resides in.--->
-	<cfset set(dataSourceName="effecksintranet")>
+	<cfset set(dataSourceName="effecks_intranet")>
 	
 
 <!---
